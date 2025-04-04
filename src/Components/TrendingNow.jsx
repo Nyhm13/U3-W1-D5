@@ -45,7 +45,7 @@ componentDidMount() {
   render() {
     return (
       <Container fluid className="my-5 px-4">
-        <h4 className="text-white">{this.props.categoria}</h4>
+        <h4 className="text-white mb-4">{this.props.categoria}</h4>
         {
             this.state.loading && !this.state.error && (
                 <div className="text-center">

@@ -15,14 +15,14 @@ function App() {
         <MyNavBar />
         <TvShowsBar/>
         <TrendingNow search="Bleach" categoria="Trending now"/>
-        <TrendingNow search="Breaking bad" categoria="Watch it Again"/>
+        <TrendingNow search="One-piece" categoria="Watch it Again"/>
         <TrendingNow search="Family Guy" categoria="New Release"/>
       </header>
       <main className=" flex-grow-1"></main>
       <footer className="bg-dark text-light py-2">
         <MyFooter />
         {/* <Settings/> */}
-        <Profile/>
+        {/* <Profile/> */}
       </footer>
     </div>
   );

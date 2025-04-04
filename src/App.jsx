@@ -5,6 +5,8 @@ import MyFooter from "./Components/MyFooter";
 import MyNavBar from "./Components/MyNavBar";
 import TvShowsBar from "./Components/TvShowsBar";
 import TrendingNow from "./Components/TrendingNow";
+import Settings from "./Components/Settings";
+import Profile from "./Components/Profile";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
       <main className=" flex-grow-1"></main>
       <footer className="bg-dark text-light py-2">
         <MyFooter />
+        {/* <Settings/> */}
+        <Profile/>
       </footer>
     </div>
   );
